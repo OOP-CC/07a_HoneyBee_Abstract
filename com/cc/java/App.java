@@ -12,9 +12,9 @@ public class App {
         pollObj(worker);
         pollObj(drone);
 
-        // Das sollte eigentlich nicht gehen!
-        HoneyBee bee = new HoneyBee();
-        output(bee.doYourJob());
+        // HoneyBee ist abstrakt --> Fehler!
+        // HoneyBee bee = new HoneyBee();
+        // output(bee.doYourJob());
 
 
     }
